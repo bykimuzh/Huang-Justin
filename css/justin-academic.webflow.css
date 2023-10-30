@@ -252,6 +252,7 @@
 
 .efi-button {
   background-color: #000;
+  margin-right: 27px;
   padding: 20px 40px;
   font-size: 18px;
   font-weight: 400;
@@ -436,7 +437,32 @@
   padding: 100px 5%;
 }
 
+.button {
+  width: 20vw;
+  text-align: center;
+  background-color: #000;
+}
+
+.efi-button-copy {
+  width: 15vw;
+  text-align: center;
+  background-color: #000;
+  margin-right: 27px;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all .7s;
+}
+
+.efi-button-copy:hover {
+  transform: translate(0, -7px);
+}
+
 @media screen and (min-width: 1920px) {
+  .section-1 {
+    height: 110vh;
+  }
+
   .section-2 {
     background-color: #fff;
   }
@@ -722,6 +748,12 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .efi-button {
+    width: 80vw;
+    margin-top: 11px;
+    display: flex;
+  }
+
   .efi-big-paragraph {
     font-size: 15px;
     line-height: 20px;
@@ -782,7 +814,7 @@
   justify-self: auto;
 }
 
-#w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039e5-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039f0-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039ff-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a03-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a0c-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a11-cd7254b3 {
+#w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039e5-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039f0-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a03-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a11-cd7254b3 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -791,7 +823,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-#w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a2c-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a2e-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a32-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a4a-cd7254b3, #CONTACT.w-node-b6476fc1-568e-9f51-34ba-d40691f22015-cd7254b3, #w-node-b6476fc1-568e-9f51-34ba-d40691f22018-cd7254b3 {
+#w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a32-cd7254b3, #CONTACT.w-node-b6476fc1-568e-9f51-34ba-d40691f22015-cd7254b3, #w-node-b6476fc1-568e-9f51-34ba-d40691f22018-cd7254b3 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -806,7 +838,7 @@
     justify-self: auto;
   }
 
-  #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039e5-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039f0-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039f3-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039fa-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039ff-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a03-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a0b-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a0c-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a0e-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a11-cd7254b3 {
+  #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039e5-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039f0-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039f3-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff039fa-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a03-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a11-cd7254b3 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 
@@ -815,13 +847,13 @@
     grid-template-columns: 1fr .4fr;
   }
 
-  #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a2c-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a2e-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a32-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a35-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a4a-cd7254b3 {
+  #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a32-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a35-cd7254b3 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a06-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a09-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a0e-cd7254b3 {
+  #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a06-cd7254b3, #w-node-_57a2da7d-4c7e-ac61-0d09-72338ff03a09-cd7254b3 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
