@@ -1192,6 +1192,7 @@
   }
 
   .efi-hr-01-buttons-wrapper {
+    padding-right: 0;
     display: block;
   }
 
@@ -1228,6 +1229,15 @@
 
   .efi-paragraph {
     margin-bottom: 0;
+  }
+
+  .efi-ft-09-grid-inner {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: block;
   }
 
   .efi-h2 {
@@ -1268,7 +1278,12 @@
   }
 
   .bold-text {
+    text-align: left;
     display: block;
+  }
+
+  .quick-stack {
+    padding-right: 0;
   }
 
   .efi-frm-03-text-grid {
@@ -1339,10 +1354,17 @@
   }
 
   .efi-ft-10 {
-    width: 90vw;
-    max-width: 90vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex: 0 auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: block;
   }
 
   .bold-text-2 {
@@ -1449,8 +1471,20 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-e8b6b2e0-f1ef-79f7-7a79-03b052865cce-ed0d6b59 {
+    align-self: auto;
+    justify-self: auto;
+  }
+
   #w-node-e8b6b2e0-f1ef-79f7-7a79-03b052865cd1-ed0d6b59, #w-node-a8ddb1e8-140a-2871-ca86-96731ded3ebb-ed0d6b59 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
     display: grid;
+  }
+
+  #w-node-a8ddb1e8-140a-2871-ca86-96731ded3ec6-ed0d6b59 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
   }
 }
 
